@@ -1,3 +1,10 @@
+Day 01 – Introduction to DevOps and Cloud
+
+Task Done
+
+Today’s goal is to set the foundation for your DevOps journey.
+
+You will create a 90-day personal DevOps learning plan that clearly defines:
 - What is your understanding of DevOps and Cloud Engineering?
 - My current profile as a Broadcast IT engineer so i move on DevOps and Cloud Engineering are complementary, modern IT disciplines focusing on efficient software delivery and infrastructure management. DevOps (Development + Operations) emphasizes automating the software lifecycle (CI/CD) and improving team collaboration. Cloud Engineering focuses on designing, building, and managing scalable, secure cloud-based infrastructure.
 
