@@ -10,5 +10,8 @@ Init (Initialization): This is the first process the kernel starts after booting
 **systemd:** It manages system processes after boot, handling service startup and shutdown, logging, and daemon management. It is designed for parallel processing of services during startup, which helps achieve faster boot times.
 
 **- How processes are created and managed.**
-**- In Linux**, processes are created using the fork() system call (creating a child process identical to the parent) and the exec() system call (loading a new binary into the process's memory space). The kernel manages these instances using unique Process IDs (PIDs), scheduling them based on states like running,
+**- In Linux**, processes are created using the fork() system call (creating a child process identical to the parent) and the exec() system call (loading a new binary into the process's memory space). The kernel manages these instances using unique Process IDs (PIDs), scheduling them based on states like running.
+
+**-What systemd does and why it matters**
+**-Systemd** is the default system and service manager for most modern Linux distributions, acting as the first process (PID 1) to boot the user space, manage services, and control system state. It improves efficiency by enabling parallel service startup, managing dependencies, handling logging via journald, and using systemctl for centralized control. 
 
