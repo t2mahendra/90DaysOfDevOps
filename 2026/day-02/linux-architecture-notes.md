@@ -15,3 +15,18 @@ Init (Initialization): This is the first process the kernel starts after booting
 **-What systemd does and why it matters**
 **-Systemd** is the default system and service manager for most modern Linux distributions, acting as the first process (PID 1) to boot the user space, manage services, and control system state. It improves efficiency by enabling parallel service startup, managing dependencies, handling logging via journald, and using systemctl for centralized control. 
 
+**-Explain process states (running, sleeping, zombie,etc)**
+**-Linux/Unix** systems, processes exist in specific states indicating their resource usage and execution status: Running (actively using CPU or ready to), Sleeping (waiting for events or resources), and Zombie (terminated but lingering in the process table). These states are crucial for monitoring system performance and identifying stuck applications. 
+
+**-List 5 commands you would use daily.**
+ls
+htop
+sudo
+pwd
+cd
+
+**Happy Learning
+Mahendra Singh**
+
+
+
