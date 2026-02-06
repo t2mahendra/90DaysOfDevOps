@@ -29,7 +29,9 @@ mahi@Mahi-Server:~$ echi "line 1" > notes.txt
 Command 'echi' not found, did you mean:
   command 'echo' from deb coreutils (9.4-3ubuntu6.1)
 Try: apt install <deb name>
+
 mahi@Mahi-Server:~$ echo notes.txt
+
 notes.txt
 mahi@Mahi-Server:~$ cat notes.txt
 
@@ -37,6 +39,7 @@ mahi@Mahi-Server:~$ head -n 2 notes.txt
 
 mahi@Mahi-Server:~$
 mahi@Mahi-Server:~$ tail -n 2 notes.txt
+
 mahi@Mahi-Server:~$ echo "Line 3" | tee -a notes.txt
 
 
