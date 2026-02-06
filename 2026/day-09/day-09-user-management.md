@@ -162,7 +162,9 @@ info: Adding group `developers' (GID 1005) ...
 root@Mahi-Server:~# sudo addgroup admins
 info: Selecting GID from range 1000 to 59999 ...
 info: Adding group `admins' (GID 1006) ...
+
 root@Mahi-Server:~# cat /etc/group
+
 root:x:0:
 daemon:x:1:
 bin:x:2:
