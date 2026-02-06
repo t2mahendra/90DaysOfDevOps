@@ -214,6 +214,7 @@ total 4
 root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~# top
+
 top - 07:25:55 up 43 min,  2 users,  load average: 0.00, 0.02, 0.00
 Tasks: 119 total,   1 running, 118 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  4.5 us,  4.5 sy,  0.0 ni, 90.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
@@ -264,10 +265,14 @@ tmpfs           5.0M     0  5.0M   0% /run/lock
 /dev/vda15      105M  6.2M   99M   6% /boot/efi
 tmpfs           392M   12K  392M   1% /run/user/0
 root@Mahi-Server:~# du -sh
+
 104K    .
 root@Mahi-Server:~# du -sh /var/log
+
 66M     /var/log
+
 root@Mahi-Server:~# ss -tulpn
+
 Netid   State    Recv-Q    Send-Q       Local Address:Port        Peer Address:Port                                              Process
 udp     UNCONN   0         0                  0.0.0.0:7359             0.0.0.0:*                                                  users:(("jellyfin",pid=7837,fd=455))
 udp     UNCONN   0         0               127.0.0.54:53               0.0.0.0:*                                                  users:(("systemd-resolve",pid=7803,fd=16))
@@ -281,10 +286,13 @@ tcp     LISTEN   0         4096               0.0.0.0:22               0.0.0.0:*
 tcp     LISTEN   0         4096                  [::]:22                  [::]:*                                                  users:(("sshd",pid=7825,fd=4),("systemd",pid=1,fd=137))
 tcp     LISTEN   0         32                       *:21                     *:*                                                  users:(("vsftpd",pid=7824,fd=3))
 tcp     LISTEN   0         128                  [::1]:6010                [::]:*                                                  users:(("sshd",pid=9269,fd=5))
+
 root@Mahi-Server:~# netstat -tulpn
+
 Command 'netstat' not found, but can be installed with:
 apt install net-tools
 root@Mahi-Server:~# apt install net-tools
+
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
