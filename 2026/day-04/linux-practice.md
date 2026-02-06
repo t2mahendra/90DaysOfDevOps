@@ -91,14 +91,20 @@ root@Mahi-Server:~# sysemctl status
 
 Command 'sysemctl' not found, did you mean:
   command 'systemctl' from deb systemd (255.4-1ubuntu8.12)
+ 
   command 'systemctl' from deb systemctl (1.4.4181-1.1)
+
 Try: apt install <deb name>
 root@Mahi-Server:~# sysemctl status vasftp
 Command 'sysemctl' not found, did you mean:
+  
   command 'systemctl' from deb systemd (255.4-1ubuntu8.12)
+  
   command 'systemctl' from deb systemctl (1.4.4181-1.1)
 Try: apt install <deb name>
+
 root@Mahi-Server:~# sysmctl status vsftpd
+
 Command 'sysmctl' not found, did you mean:
   command 'sysctl' from deb procps (2:4.0.4-4ubuntu3.2)
 Try: apt install <deb name>
