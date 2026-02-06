@@ -381,12 +381,19 @@ Test by creating file as nairobi
 
 root@Mahi-Server:~#
 root@Mahi-Server:~# sudo useradd -m nairobi
+
 root@Mahi-Server:~# sudo groupadd project-team
+
 root@Mahi-Server:~# sudo usermod -aG project-team nairobi
+
 root@Mahi-Server:~# sudo usermod -aG project-team tokyo
+
 root@Mahi-Server:~# sudo mkdir /opt/team-workspace
+
 root@Mahi-Server:~# sudo chown :project-team /opt/team-workspace
+
 root@Mahi-Server:~# sudo chmod 775 /opt/team-workspace
+
 root@Mahi-Server:~# sudo -u nairobi touch /opt/team-workspace/nairobi-test.txt
 ls -l /opt/team-workspace/nairobi-test.txt
 -rw-rw-r-- 1 nairobi nairobi 0 Feb  6 14:14 /opt/team-workspace/nairobi-test.txt
