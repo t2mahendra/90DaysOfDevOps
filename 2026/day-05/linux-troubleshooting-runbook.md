@@ -75,6 +75,7 @@ root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~# ss -tulpn
+
 Netid   State    Recv-Q    Send-Q       Local Address:Port        Peer Address:Port                                              Process
 udp     UNCONN   0         0                  0.0.0.0:7359             0.0.0.0:*                                                  users:(("jellyfin",pid=7837,fd=455))
 udp     UNCONN   0         0               127.0.0.54:53               0.0.0.0:*                                                  users:(("systemd-resolve",pid=7803,fd=16))
@@ -169,6 +170,7 @@ Description:    Ubuntu 24.04.3 LTS
 Release:        24.04
 Codename:       noble
 root@Mahi-Server:~# cat /etc/os-release
+
 PRETTY_NAME="Ubuntu 24.04.3 LTS"
 NAME="Ubuntu"
 VERSION_ID="24.04"
@@ -198,6 +200,7 @@ Command 'makdir' not found, did you mean:
   command 'mkdir' from deb coreutils (9.4-3ubuntu6.1)
 Try: apt install <deb name>
 root@Mahi-Server:~# sudo mkdir /tmp/runbook-demo
+
 root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~#
@@ -241,6 +244,7 @@ root@Mahi-Server:~# ps -o pid
    9374
    9461
 root@Mahi-Server:~# pcpu
+
 Command 'pcpu' not found, did you mean:
   command 'pcp' from deb pcp (6.1.1-1)
   command 'cpu' from deb cpu (1.4.3-13build2)
@@ -327,6 +331,7 @@ User sessions running outdated binaries:
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 root@Mahi-Server:~# netstat -tulpn
+
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Pr                                           ogram name
 tcp        0      0 127.0.0.1:6010          0.0.0.0:*               LISTEN      9269/s                                           shd: root@pts
@@ -356,4 +361,8 @@ usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
        ssh [-Q query_option]
 root@Mahi-Server:~# ^C
 root@Mahi-Server:~#
+
+**Happy Learning!**
+
+**Mahendra Singh**
 
