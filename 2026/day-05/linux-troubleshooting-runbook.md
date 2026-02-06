@@ -12,6 +12,7 @@ root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~# top -bn1 | head -n 20
+
 top - 07:15:52 up 33 min,  2 users,  load average: 0.00, 0.02, 0.03
 Tasks: 122 total,   1 running, 121 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  4.5 sy,  0.0 ni, 95.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
@@ -37,6 +38,7 @@ root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~# df -h
+
 Filesystem      Size  Used Avail Use% Mounted on
 tmpfs           392M  1.1M  391M   1% /run
 /dev/vda1        77G  3.7G   73G   5% /
@@ -69,6 +71,7 @@ root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~# journalctl -p 3 -xb | tail -n 20
+
 -- No entries --
 root@Mahi-Server:~#
 root@Mahi-Server:~#
@@ -92,6 +95,7 @@ tcp     LISTEN   0         128                  [::1]:6010                [::]:*
 root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~# sudo apt install lm-sensors
+
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
