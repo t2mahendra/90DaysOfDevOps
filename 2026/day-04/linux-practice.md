@@ -8,10 +8,12 @@
 
 root@Mahi-Server:~#
 root@Mahi-Server:~# ps
+   
     PID TTY          TIME CMD
    1584 pts/0    00:00:00 bash
    1601 pts/0    00:00:00 ps
 root@Mahi-Server:~# top
+
 top - 06:56:14 up 13 min,  2 users,  load average: 0.03, 0.03, 0.04
 Tasks: 117 total,   1 running, 116 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  4.8 sy,  0.0 ni, 95.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
@@ -41,6 +43,7 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3418.1 avail Mem
      21 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1
      22 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1
 root@Mahi-Server:~# pgrep
+
 pgrep: no matching criteria specified
 Try `pgrep --help' for more information.
 root@Mahi-Server:~# pgrep --help
@@ -85,6 +88,7 @@ Options:
 
 For more details see pgrep(1).
 root@Mahi-Server:~# sysemctl status
+
 Command 'sysemctl' not found, did you mean:
   command 'systemctl' from deb systemd (255.4-1ubuntu8.12)
   command 'systemctl' from deb systemctl (1.4.4181-1.1)
@@ -103,6 +107,7 @@ Command 'sysmctl' not found, did you mean:
   command 'sysctl' from deb procps (2:4.0.4-4ubuntu3.2)
 Try: apt install <deb name>
 root@Mahi-Server:~# systemctl status vsftpd
+
 ● vsftpd.service - vsftpd FTP server
      Loaded: loaded (/usr/lib/systemd/system/vsftpd.service; enabled; preset: enabled)
      Active: active (running) since Wed 2026-02-04 06:42:52 UTC; 15min ago
@@ -118,6 +123,7 @@ Feb 04 06:42:51 Mahi-Server systemd[1]: Starting vsftpd.service - vsftpd FTP ser
 Feb 04 06:42:52 Mahi-Server systemd[1]: Started vsftpd.service - vsftpd FTP server.
 
 root@Mahi-Server:~# systemctl list-units
+ 
   UNIT                                                                               >
   proc-sys-fs-binfmt_misc.automount                                                  >
   sys-devices-pci0000:00-0000:00:03.0-virtio0-net-eth0.device                        >
@@ -164,6 +170,7 @@ root@Mahi-Server:~# systemctl list-units
   sys-module-configfs.device                                                         >
   sys-module-fuse.device                                                             >
   sys-subsystem-net-devices-eth0.device                                              >
+  
   -.mount                                                                            >
   boot-efi.mount                                                                     >
   boot.mount                                                                         >
@@ -234,6 +241,7 @@ root@Mahi-Server:~# systemctl list-units
   ufw.service                                                                        >
   unattended-upgrades.service                                                        >
   user-runtime-dir@0.service                                                         >
+ 
   user@0.service                                                                     >
   vsftpd.service                                                                     >
   -.slice                                                                            >
@@ -314,6 +322,7 @@ Legend: LOAD   → Reflects whether the unit definition was properly loaded.
 To show all installed unit files use 'systemctl list-unit-files'.
 
 root@Mahi-Server:~# journalctl -u vsftpd
+
 Jan 26 05:08:24 Mahi-Server systemd[1]: Starting vsftpd.service - vsftpd FTP server...
 Jan 26 05:08:24 Mahi-Server systemd[1]: Started vsftpd.service - vsftpd FTP server.
 Jan 26 05:08:43 Mahi-Server systemd[1]: Stopping vsftpd.service - vsftpd FTP server...
@@ -359,7 +368,9 @@ root@Mahi-Server:~# tail -n 50
 
 ^C
 root@Mahi-Server:~# htop
+
 root@Mahi-Server:~# df -h
+
 Filesystem      Size  Used Avail Use% Mounted on
 tmpfs           392M 1004K  391M   1% /run
 /dev/vda1        77G  3.2G   74G   5% /
@@ -429,6 +440,7 @@ Get:6 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
 Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1723 kB]
 Get:8 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [230 kB]
 Get:9 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.6 kB]
+
 Get:10 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [984                                           4 B]
 Get:11 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [929 k                                           B]
 Get:12 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [212 k                                           B]
@@ -535,6 +547,7 @@ Get:31 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8
 Get:32 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 screen amd64 4.9.1-1u                                           buntu1 [654 kB]
 Fetched 99.8 MB in 15s (6497 kB/s)
 Extracting templates from packages: 100%
+
 Preconfiguring packages ...
 (Reading database ... 109655 files and directories currently installed.)
 Preparing to unpack .../libc-devtools_2.39-0ubuntu8.7_amd64.deb ...
@@ -622,6 +635,7 @@ Setting up locales (2.39-0ubuntu8.7) ...
 Generating locales (this might take a while)...
   en_US.UTF-8... done
 Generation complete.
+
 Setting up linux-headers-6.8.0-94 (6.8.0-94.96) ...
 Setting up linux-headers-6.8.0-94-generic (6.8.0-94.96) ...
 Setting up libpng16-16t64:amd64 (1.6.43-5ubuntu0.4) ...
@@ -748,6 +762,7 @@ Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 dnsmasq-base amd
 Get:7 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 docker.io amd64 28                                           .2.2-0ubuntu1~24.04.1 [28.3 MB]
 Get:8 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 ubuntu-fan all 0.1                                           2.16+24.04.1 [34.2 kB]
 Fetched 76.1 MB in 5s (16.8 MB/s)
+
 Preconfiguring packages ...
 Selecting previously unselected package pigz.
 (Reading database ... 141251 files and directories currently installed.)
