@@ -25,3 +25,31 @@ Verify: ls -l to see permissions
 
 <img width="531" height="215" alt="image" src="https://github.com/user-attachments/assets/88e8f26d-6aac-4c79-b1db-2da529c2c095" />
 
+Task 2: Read Files (10 minutes)
+
+Read notes.txt using cat
+
+<img width="277" height="34" alt="image" src="https://github.com/user-attachments/assets/1524aee3-25b0-4f6e-884c-059a07a29205" />
+
+View script.sh in vim read-only mode
+
+<img width="277" height="46" alt="image" src="https://github.com/user-attachments/assets/7c7e2766-ef23-4c62-9a7b-f257c6ae3a88" />
+
+Display first 5 lines of /etc/passwd using head
+
+<img width="407" height="191" alt="image" src="https://github.com/user-attachments/assets/c26dabc2-078a-4492-a5e5-3cde95f7d6ac" />
+
+Display last 5 lines of /etc/passwd using tail
+
+<img width="545" height="188" alt="image" src="https://github.com/user-attachments/assets/8c3a6b0c-4cca-4d03-af78-2a459bf1804a" />
+
+Task 3: Understand Permissions (10 minutes)
+Format: rwxrwxrwx (owner-group-others)
+
+r = read (4), w = write (2), x = execute (1)
+Check your files: ls -l devops.txt notes.txt script.sh
+
+<img width="468" height="78" alt="image" src="https://github.com/user-attachments/assets/5524d5fb-4cf0-4f37-bf03-c8493ee5a14c" />
+
+Answer: Read current permissions.
+
