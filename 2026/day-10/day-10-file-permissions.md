@@ -53,3 +53,7 @@ Check your files: ls -l devops.txt notes.txt script.sh
 
 Answer: Read/write current permissions.
 
+Happy Learning 
+
+Mahendra Singh
+
