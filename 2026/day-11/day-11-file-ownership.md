@@ -78,7 +78,8 @@ blueprints.pdf → owner: berlin, group: tech-team
 escape-plan.txt → owner: nairobi, group: vault-team
 Verify: ls -l bank-heist/
 
-<img width="825" height="313" alt="image" src="https://github.com/user-attachments/assets/d4b78943-8c3d-4949-b824-1c50bc88b24e" />
+<img width="448" height="185" alt="image" src="https://github.com/user-attachments/assets/4192182d-caa0-4907-a4c7-9094e3e9e20e" />
+
 
 Happy Learning 
 
