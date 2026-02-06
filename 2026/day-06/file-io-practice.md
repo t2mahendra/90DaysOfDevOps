@@ -32,9 +32,21 @@ mahi@Mahi-Server:~$ cat notes.txt
 mahi@Mahi-Server:~$ head -n 2 notes.txt
 mahi@Mahi-Server:~$
 mahi@Mahi-Server:~$ tail -n 2 notes.txt
-mahi@Mahi-Server:~$
+mahi@Mahi-Server:~$ echo "Line 3" | tee -a notes.txt
+
+
+root@Mahi-Server:~#
+root@Mahi-Server:~#
+root@Mahi-Server:~# touch my file
+root@Mahi-Server:~# cat my file
+root@Mahi-Server:~# head my file
+==> my <==
+
+==> file <==
+
 
 Happy Learning
+
 Mahendra
 
 
