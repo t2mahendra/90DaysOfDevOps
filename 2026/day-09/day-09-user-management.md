@@ -156,6 +156,7 @@ admins
 Verify: Check /etc/group
 
 root@Mahi-Server:~# sudo addgroup developers
+
 info: Selecting GID from range 1000 to 59999 ...
 info: Adding group `developers' (GID 1005) ...
 root@Mahi-Server:~# sudo addgroup admins
@@ -251,7 +252,9 @@ root@Mahi-Server:~# sudo usermod -aG admin berlin
 admin   admins
 
 root@Mahi-Server:~# sudo usermod -aG admins berlin
+
 root@Mahi-Server:~# cat /etc/group
+
 root:x:0:
 daemon:x:1:
 bin:x:2:
@@ -343,6 +346,7 @@ drwx--x--x  4 root root 4096 Feb  4 12:35 containerd/
 root@Mahi-Server:/opt#
 
 root@Mahi-Server:~# touch /opt/dev-project
+
 root@Mahi-Server:~# cd /opt/
 root@Mahi-Server:/opt# ll
 total 12
