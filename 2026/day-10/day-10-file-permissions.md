@@ -51,5 +51,5 @@ Check your files: ls -l devops.txt notes.txt script.sh
 
 <img width="468" height="78" alt="image" src="https://github.com/user-attachments/assets/5524d5fb-4cf0-4f37-bf03-c8493ee5a14c" />
 
-Answer: Read current permissions.
+Answer: Read/write current permissions.
 
