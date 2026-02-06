@@ -14,6 +14,7 @@ Core Directories (Must Know):
 root@Mahi-Server:~#
 root@Mahi-Server:~#
 root@Mahi-Server:~# ll
+
 total 112
 drwx------  6 root root  4096 Feb  5 03:48 ./
 drwxr-xr-x 22 root root  4096 Feb  5 03:21 ../
@@ -35,6 +36,7 @@ drwx------  2 root root  4096 Jan 25 19:41 .ssh/
 -rw-r--r--  1 root root  9455 Feb  4 15:04 install_pnetlab_v6.sh.2
 -rw-r--r--  1 root root     7 Jan 25 14:14 utho.txt
 root@Mahi-Server:~# /home/
+
 -bash: /home/: Is a directory
 root@Mahi-Server:~# cd /home/
 root@Mahi-Server:/home# /root/
@@ -46,7 +48,9 @@ root@Mahi-Server:/etc#
 root@Mahi-Server:/etc#
 root@Mahi-Server:/etc#
 root@Mahi-Server:/etc# cd /var/log/
+
 root@Mahi-Server:/var/log# ll
+
 total 7136
 drwxrwxr-x  10 root      syslog             4096 Feb  5 03:21 ./
 drwxr-xr-x  13 root      root               4096 Jan 25 19:41 ../
