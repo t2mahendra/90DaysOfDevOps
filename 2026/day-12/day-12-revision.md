@@ -65,7 +65,7 @@ Identify the owner and group columns
 Check who owns your files
 Format: -rw-r--r-- 1 owner group size date filename
 
-Task 2: Basic chown Operations 
+Basic chown Operations 
 Create file devops-file.txt
 Check current owner: ls -l devops-file.txt
 Change owner to tokyo (create user if needed)
@@ -74,7 +74,7 @@ Verify the changes
 
 <img width="445" height="160" alt="image" src="https://github.com/user-attachments/assets/4ef20f51-5cf5-4ff3-8ec7-eb964e8dc7dc" />
 
-Task 3: Basic chgrp Operations 
+Basic chgrp Operations 
 Create file team-notes.txt
 Check current group: ls -l team-notes.txt
 Create group: sudo groupadd heist-team
@@ -83,7 +83,7 @@ Verify the change
 
 <img width="441" height="150" alt="image" src="https://github.com/user-attachments/assets/73e9e7ab-4230-4623-b9b0-49441400a7c6" />
 
-Task 4: Combined Owner & Group Change 
+Combined Owner & Group Change 
 Using chown you can change both owner and group together:
 
 Create file project-config.yaml
@@ -93,7 +93,7 @@ Change its owner to berlin and group to heist-team
 
 <img width="578" height="427" alt="image" src="https://github.com/user-attachments/assets/638a57c3-a63e-44af-841b-9874f60efdad" />
 
-Task 5: Recursive Ownership 
+Recursive Ownership 
 Create directory structure:
 
 mkdir -p heist-project/vault
