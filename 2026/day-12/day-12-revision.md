@@ -2,7 +2,7 @@
 
 ## What to Review (pick at least one per section)
 - **Mindset & plan:** revisit your Day 01 learning plan—are your goals still right? any tweaks?
-- 
+- Revisit your Day 01 learning plan from the #90DaysOfDevOps challenge by confirming if its foundational focus—what is DevOps, basic principles, and resources like mind maps—still aligns with your current expertise in broadcast engineering, i am practice on Linux/Ubuntu.
 - **Processes & services:** rerun 2 commands from Day 04/05 (e.g., `ps`, `systemctl status`, `journalctl -u <service>`); jot what you observed today.  
 - **File skills:** practice 3 quick ops from Days 06–11 (e.g., `echo >>`, `chmod`, `chown`, `ls -l`, `cp`, `mkdir`).  
 - **Cheat sheet refresh:** skim your Day 03 commands—highlight 5 you’d reach for first in an incident.  
