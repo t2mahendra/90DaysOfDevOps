@@ -1,15 +1,8 @@
-# Day 12 – Breather & Revision (Days 01–11)
-
-## Goal
-Take a **one-day pause** to consolidate everything from Days 01–11 so you don’t forget the fundamentals you just built.
-
-## Expected Output
-- A markdown file: `day-12-revision.md`  
-  (bullet notes + checkpoints)  
-- Optional: screenshots of any re-runs you do
+# Breather & Revision (Days 01–11)
 
 ## What to Review (pick at least one per section)
-- **Mindset & plan:** revisit your Day 01 learning plan—are your goals still right? any tweaks?  
+- **Mindset & plan:** revisit your Day 01 learning plan—are your goals still right? any tweaks?
+- 
 - **Processes & services:** rerun 2 commands from Day 04/05 (e.g., `ps`, `systemctl status`, `journalctl -u <service>`); jot what you observed today.  
 - **File skills:** practice 3 quick ops from Days 06–11 (e.g., `echo >>`, `chmod`, `chown`, `ls -l`, `cp`, `mkdir`).  
 - **Cheat sheet refresh:** skim your Day 03 commands—highlight 5 you’d reach for first in an incident.  
