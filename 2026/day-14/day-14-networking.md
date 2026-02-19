@@ -78,26 +78,5 @@ Pick one target service/host (e.g., `google.com`, your lab server, or a local se
 
 ---
 
-## Reflection (add to your markdown)
-- Which command gives you the fastest signal when something is broken?
-- What layer (OSI/TCP-IP) would you inspect next if DNS fails? If HTTP 500 shows up?
-- Two follow-up checks you’d run in a real incident.
-
----
-
-## Submission
-1. Add `day-14-networking.md` to `2026/day-14/`
-2. Commit and push to your fork
-
----
-
-## Learn in Public
-Post 2–3 lines on the commands you practiced and one interesting traceroute/curl finding.
-
-Use hashtags:  
-#90DaysOfDevOps  
-#DevOpsKaJosh  
-#TrainWithShubham
-
 Happy Learning  
-**TrainWithShubham**
+**Mahendra Singh**
