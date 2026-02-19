@@ -8,58 +8,40 @@ Switch to root user:
 ```bash
 sudo -i
 ```
+<img width="213" height="119" alt="image" src="https://github.com/user-attachments/assets/6f63800b-f2bd-4c53-bcd5-9b8ae60b1519" />
 or
 ```bash
 sudo su
 ```
+
+<img width="216" height="65" alt="image" src="https://github.com/user-attachments/assets/4a87ac9c-17e2-422b-952b-c50ab69578ca" />
+
 No spare disk? Create a virtual one (watch the tutorial):
 ```bash
 dd if=/dev/zero of=/tmp/disk1.img bs=1M count=1024
 losetup -fP /tmp/disk1.img
 losetup -a   # Note the device name (e.g., /dev/loop0)
 ```
+<img width="611" height="188" alt="image" src="https://github.com/user-attachments/assets/55bef81e-a9ac-43ad-91c2-245f26b54ee6" />
 
 ---
 
 ## Challenge Tasks
 
-### Task 1: Check Current Storage
+### Check Current Storage
 Run: `lsblk`, `pvs`, `vgs`, `lvs`, `df -h`
 
-### Task 2: Create Physical Volume
-```bash
-pvcreate /dev/sdb   # or your loop device
-pvs
-```
+<img width="426" height="363" alt="image" src="https://github.com/user-attachments/assets/cf9d1738-a6f7-4118-ae4e-5e34fb4b2914" />
 
-### Task 3: Create Volume Group
-```bash
-vgcreate devops-vg /dev/sdb
-vgs
 ```
-
-### Task 4: Create Logical Volume
-```bash
-lvcreate -L 500M -n app-data devops-vg
-lvs
-```
-
-### Task 5: Format and Mount
+###  Format and Mount
 ```bash
 mkfs.ext4 /dev/devops-vg/app-data
 mkdir -p /mnt/app-data
 mount /dev/devops-vg/app-data /mnt/app-data
 df -h /mnt/app-data
 ```
-
-### Task 6: Extend the Volume
-```bash
-lvextend -L +200M /dev/devops-vg/app-data
-resize2fs /dev/devops-vg/app-data
-df -h /mnt/app-data
-```
-
----
+<img width="633" height="171" alt="image" src="https://github.com/user-attachments/assets/643c2515-20dc-45ed-a8b0-7cf0570ef8a5" />
 
 ## Documentation
 
@@ -85,5 +67,5 @@ Share your LVM progress on LinkedIn.
 ```
 
 Happy Learning!
-**TrainWithShubham**
+**Mahendra Singh**
 
