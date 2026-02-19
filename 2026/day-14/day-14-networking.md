@@ -66,9 +66,15 @@ Pick one target service/host (e.g., `google.com`, your lab server, or a local se
 ---
 
 ## Mini Task: Port Probe & Interpret
-1) Identify one listening port from `ss -tulpn` (e.g., SSH on 22 or a local web app).  
-2) From the same machine, test it: `nc -zv localhost <port>` (or `curl -I http://localhost:<port>`).  
-3) Write one line: is it reachable? If not, what’s the next check? (e.g., service status, firewall).
+1) Identify one listening port from `ss -tulpn` (e.g., SSH on 22 or a local web app).
+   <img width="993" height="358" alt="image" src="https://github.com/user-attachments/assets/f409fe1d-be28-4340-9484-dfee23acc0f8" />
+
+3) From the same machine, test it: `nc -zv localhost <port>` (or `curl -I http://localhost:<port>`).
+<img width="628" height="139" alt="image" src="https://github.com/user-attachments/assets/2bba28bf-630a-4b02-8987-4885453827e0" />
+
+5) Write one line: is it reachable? If not, what’s the next check? (e.g., service status, firewall).
+<img width="756" height="186" alt="image" src="https://github.com/user-attachments/assets/b75f3e76-8ca9-4fca-b76f-521fd294a43f" />
+
 
 ---
 
