@@ -5,6 +5,8 @@ Get comfortable with core networking concepts and the commands you’ll actually
 
 You will:
 - Map the **OSI vs TCP/IP models** in your own words
+  ![Screenshot 2026-02-19 211732](https://github.com/user-attachments/assets/e396b847-9b53-40d0-9165-343c74789222)
+
 - Run essential connectivity commands
 - Capture a mini network check for a target host/service
 
