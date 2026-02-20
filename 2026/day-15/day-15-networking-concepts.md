@@ -1,12 +1,24 @@
-# Day 15 – Networking Concepts: DNS, IP, Subnets & Ports
+# Networking Concepts: DNS, IP, Subnets & Ports
 
-## Task
+## Task Done
 Build on Day 14 by understanding the building blocks of networking every DevOps engineer must know.
 
 You will:
 - Understand how **DNS** resolves names to IPs
+  <img width="570" height="338" alt="image" src="https://github.com/user-attachments/assets/22788d1e-9937-49f6-9a7e-1b13293ea0f3" />
+
 - Learn **IP addressing** (IPv4, public vs private)
+A public IPv4 address is a globally unique, internet-routable address assigned by ISPs to routers, enabling direct communication over the internet.
+
+Reserved Private IPv4 Address Ranges (RFC 1918)
+These ranges are not routable on the public internet: 
+Class A: 10.0.0.0 - 10.255.255.255
+Class B: 172.16.0.0 - 172.31.255.255
+Class C: 192.168.0.0 - 192.168.255.255
+  
 - Break down **CIDR notation** and **subnetting** basics
+CIDR (Classless Inter-Domain Routing) is a compact method for representing IP addresses and their network masks using a slash followed by the number of network bits (e.g., /24) instead of traditional subnet masks (e.g., 255.255.255.0)
+  
 - Know common **ports** and why they matter
 
 This is concept-focused — research, understand, and document in your own words.
