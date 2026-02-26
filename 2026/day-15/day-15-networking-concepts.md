@@ -17,16 +17,26 @@ Class B: 172.16.0.0 - 172.31.255.255
 Class C: 192.168.0.0 - 192.168.255.255
   
 - Break down **CIDR notation** and **subnetting** basics
+
 CIDR (Classless Inter-Domain Routing) is a compact method for representing IP addresses and their network masks using a slash followed by the number of network bits (e.g., /24) instead of traditional subnet masks (e.g., 255.255.255.0)
+
+Subnet Mask: A 32-bit number (e.g., 255.255.255.0 or /24) that identifies which part of an IP address represents the network and which part represents the host.
   
 - Know common **ports** and why they matter
 
-This is concept-focused — research, understand, and document in your own words.
-
----
-
-## Expected Output
-- A markdown file: `day-15-networking-concepts.md`
+20/21 - FTP (File Transfer Protocol): Used to transfer files between a client and a server.
+22 - SSH (Secure Shell): Used for secure remote logins and file transfers.
+23 - Telnet: Used for unencrypted remote login (legacy protocol, generally insecure).
+25 - SMTP (Simple Mail Transfer Protocol): Used for sending email between servers.
+53 - DNS (Domain Name System): Resolves human-readable domain names to IP addresses.
+80 - HTTP (Hypertext Transfer Protocol): The foundation of unencrypted web traffic.
+110 - POP3 (Post Office Protocol): Used to download emails from a server to a client.
+123 - NTP (Network Time Protocol): Used for synchronizing system clocks.
+143 - IMAP (Internet Message Access Protocol): Used to manage and retrieve emails from a server.
+443 - HTTPS (HTTP Secure): The encrypted version of HTTP, used for secure web traffic.
+445 - SMB (Server Message Block): Used for file sharing in Windows networks.
+3306 - MySQL: Used for database communication.
+3389 - RDP (Remote Desktop Protocol): Allows remote access to a Windows computer.
 
 ---
 
@@ -34,9 +44,23 @@ This is concept-focused — research, understand, and document in your own words
 
 ### Task 1: DNS – How Names Become IPs
 1. Explain in 3–4 lines: what happens when you type `google.com` in a browser?
-2. What are these record types? Write one line each:
+
+Type google.com and press enter, the browser first uses DNS (Domain Name System) to translate the URL into an IP address to locate Google's server. A secure connection (HTTPS/SSL) is then established, and the browser sends a request to the server, which is handled by a load balancer that distributes traffic to available servers.
+   
+3. What are these record types? Write one line each:
    - `A`, `AAAA`, `CNAME`, `MX`, `NS`
-3. Run: `dig google.com` — identify the A record and TTL from the output
+
+     definitions for the requested DNS record types:
+A (Address): Maps a domain name (or subdomain) directly to an IPv4 address.
+AAAA (Quad-A): Maps a domain name directly to an IPv6 address.
+CNAME (Canonical Name): Creates an alias that points one domain name to another domain name instead of an IP address.
+MX (Mail Exchanger): Directs email to the appropriate mail server for a domain.
+NS (Name Server): Defines which authoritative DNS servers are responsible for a domain.
+
+4. Run: `dig google.com` — identify the A record and TTL from the output
+
+   <img width="580" height="355" alt="image" src="https://github.com/user-attachments/assets/9f05f3d3-7d53-47e5-994f-d90b20975081" />
+
 
 ---
 
