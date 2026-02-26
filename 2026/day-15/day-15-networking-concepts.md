@@ -70,9 +70,21 @@ NS (Name Server): Defines which authoritative DNS servers are responsible for a 
 IPv4 (Internet Protocol version 4) address is a unique, numerical label assigned to each device (computer, printer, smartphone) connected to a computer network that uses the Internet Protocol for communication. It functions as a digital identifier and location address for transmitting data packets.
    
 3. Difference between **public** and **private** IPs — give one example of each
-4. What are the private IP ranges?
+
+Public IP addresses are unique identifiers assigned by ISPs for global internet communication, while private IPs are used locally within networks (like home/office) for internal device communication and are not reachable directly from the internet. Public IPs are global and unique; private IPs are reusable and hidden.
+
+  <img width="1024" height="455" alt="image" src="https://github.com/user-attachments/assets/968b8c5d-d89a-4e02-b3bb-700852d5aa46" />
+
+5. What are the private IP ranges?
    - `10.x.x.x`, `172.16.x.x – 172.31.x.x`, `192.168.x.x`
-5. Run: `ip addr show` — identify which of your IPs are private
+
+Class A (10.x.x.x): 10.0.0.0 – 10.255.255.255.
+Class B (172.16.x.x): 172.16.0.0 – 172.31.255.255.
+Class C (192.168.x.x): 192.168.0.0 – 192.168.255.255.
+    
+6. Run: `ip addr show` — identify which of your IPs are private
+
+   <img width="946" height="514" alt="image" src="https://github.com/user-attachments/assets/c737ba0b-d61c-4d5e-8cee-ee68fb78bc26" />
 
 ---
 
@@ -84,9 +96,9 @@ IPv4 (Internet Protocol version 4) address is a unique, numerical label assigned
 
 | CIDR | Subnet Mask | Total IPs | Usable Hosts |
 |------|-------------|-----------|--------------|
-| /24  | ?           | ?         | ?            |
-| /16  | ?           | ?         | ?            |
-| /28  | ?           | ?         | ?            |
+| /24  |255.255.255.0| 256        | 254            |
+| /16  |255.255.0.0  | 65,536     | 65,534         |
+| /28  |255.255.255.240| 16       | 14             |
 
 ---
 
@@ -96,49 +108,19 @@ IPv4 (Internet Protocol version 4) address is a unique, numerical label assigned
 
 | Port | Service |
 |------|---------|
-| 22   | ?       |
-| 80   | ?       |
-| 443  | ?       |
-| 53   | ?       |
-| 3306 | ?       |
-| 6379 | ?       |
-| 27017| ?       |
+| 22   | SSH     |
+| 80   | HTTP    |
+| 443  | HTTPS   |
+| 53   | DNS     |
+| 3306 | MySQL   |
+| 6379 | Redis   |
+| 27017| MongoDB |
 
 3. Run `ss -tulpn` — match at least 2 listening ports to their services
 
----
+<img width="904" height="255" alt="image" src="https://github.com/user-attachments/assets/52266053-aea6-4678-a8bb-989d698ba8b8" />
 
-### Task 5: Putting It Together
-Answer in 2–3 lines each:
-- You run `curl http://myapp.com:8080` — what networking concepts from today are involved?
-- Your app can't reach a database at `10.0.1.50:3306` — what would you check first?
-
----
-
-## Documentation
-
-Create `day-15-networking-concepts.md` with:
-- Your answers to each task
-- Command outputs from `dig` and `ss`
-- The filled CIDR table
-- What you learned (3 key points)
-
----
-
-## Submission
-1. Add `day-15-networking-concepts.md` to `2026/day-15/`
-2. Commit and push to your fork
-
----
-
-## Learn in Public
-
-Share what you learned about DNS, subnets, or ports on LinkedIn.
-
-```
-#90DaysOfDevOps #DevOpsKaJosh #TrainWithShubham
-```
 
 Happy Learning!
-**TrainWithShubham**
+**Mahendra Singh**
 
