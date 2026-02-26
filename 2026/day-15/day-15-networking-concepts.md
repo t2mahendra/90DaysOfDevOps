@@ -66,10 +66,13 @@ NS (Name Server): Defines which authoritative DNS servers are responsible for a 
 
 ### Task 2: IP Addressing
 1. What is an IPv4 address? How is it structured? (e.g., `192.168.1.10`)
-2. Difference between **public** and **private** IPs — give one example of each
-3. What are the private IP ranges?
+
+IPv4 (Internet Protocol version 4) address is a unique, numerical label assigned to each device (computer, printer, smartphone) connected to a computer network that uses the Internet Protocol for communication. It functions as a digital identifier and location address for transmitting data packets.
+   
+3. Difference between **public** and **private** IPs — give one example of each
+4. What are the private IP ranges?
    - `10.x.x.x`, `172.16.x.x – 172.31.x.x`, `192.168.x.x`
-4. Run: `ip addr show` — identify which of your IPs are private
+5. Run: `ip addr show` — identify which of your IPs are private
 
 ---
 
