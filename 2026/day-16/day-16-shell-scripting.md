@@ -11,12 +11,6 @@ You will:
 
 ---
 
-## Expected Output
-- A markdown file: `day-16-shell-scripting.md`
-- All scripts you write during the tasks
-
----
-
 ## Challenge Tasks
 
 ### Task 1: Your First Script
@@ -30,7 +24,7 @@ chmod +x hello.sh
 ./hello.sh
 ```
 
-**Document:** What happens if you remove the shebang line?
+<img width="464" height="258" alt="image" src="https://github.com/user-attachments/assets/e379ce05-cb01-4cb4-b1cd-a3458526831a" />
 
 ---
 
@@ -40,6 +34,8 @@ chmod +x hello.sh
    - A variable for your `ROLE` (e.g., "DevOps Engineer")
    - Print: `Hello, I am <NAME> and I am a <ROLE>`
 2. Try using single quotes vs double quotes — what's the difference?
+
+
 
 ---
 
