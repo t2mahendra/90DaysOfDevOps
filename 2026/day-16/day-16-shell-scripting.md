@@ -35,7 +35,7 @@ chmod +x hello.sh
    - Print: `Hello, I am <NAME> and I am a <ROLE>`
 2. Try using single quotes vs double quotes — what's the difference?
 
-
+<img width="419" height="156" alt="image" src="https://github.com/user-attachments/assets/e1621129-d0cc-4e90-a118-25190b59d50e" />
 
 ---
 
@@ -44,6 +44,9 @@ chmod +x hello.sh
    - Asks the user for their name using `read`
    - Asks for their favourite tool
    - Prints: `Hello <name>, your favourite tool is <tool>`
+
+<img width="417" height="291" alt="image" src="https://github.com/user-attachments/assets/e68becd1-fbdd-440f-874d-346ba1058ef5" />
+
 
 ---
 
@@ -57,6 +60,9 @@ chmod +x hello.sh
    - Checks if the file **exists** using `-f`
    - Prints appropriate message
 
+<img width="386" height="376" alt="image" src="https://github.com/user-attachments/assets/3356c58e-3ebc-4bd7-b848-4e695ad692ff" />
+
+
 ---
 
 ### Task 5: Combine It All
@@ -65,37 +71,12 @@ Create `server_check.sh` that:
 2. Asks the user: "Do you want to check the status? (y/n)"
 3. If `y` — runs `systemctl status <service>` and prints whether it's **active** or **not**
 4. If `n` — prints "Skipped."
+sudo
+
+<img width="667" height="675" alt="image" src="https://github.com/user-attachments/assets/0d5e8720-4f6d-4b8a-8ee2-f15fb72aeb82" />
 
 ---
 
-## Hints
-- Shebang: `#!/bin/bash` tells the system which interpreter to use
-- Variables: `NAME="Shubham"` (no spaces around `=`)
-- Read: `read -p "Enter name: " NAME`
-- If syntax: `if [ condition ]; then ... elif ... else ... fi`
-- File check: `if [ -f filename ]; then`
-
----
-
-## Documentation
-
-Create `day-16-shell-scripting.md` with:
-- Each script's code and output
-- What you learned (3 key points)
-
----
-
-## Submission
-1. Add your scripts and `day-16-shell-scripting.md` to `2026/day-16/`
-2. Commit and push to your fork
-
----
-
-## Learn in Public
-
-Share your first shell scripts on LinkedIn.
-
-`#90DaysOfDevOps` `#DevOpsKaJosh` `#TrainWithShubham`
 
 Happy Learning!
-**TrainWithShubham**
+**Mahendra Singh**
