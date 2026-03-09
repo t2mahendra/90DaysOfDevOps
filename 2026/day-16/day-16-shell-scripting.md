@@ -1,7 +1,7 @@
 
 # Shell Scripting Basics
 
-## Task DOne
+## Task Done
 Start your shell scripting journey — learn the fundamentals every script needs.
 
 You will:
