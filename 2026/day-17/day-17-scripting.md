@@ -5,12 +5,17 @@ Level up your scripting — use loops, handle arguments, and deal with errors.
 
 You will:
 - Write **for** and **while** loops
+  
   <img width="356" height="481" alt="image" src="https://github.com/user-attachments/assets/d43497f8-808e-4e5e-8ec4-7be0c0fbaa52" />
 <img width="444" height="205" alt="image" src="https://github.com/user-attachments/assets/2b4e7b1a-1dc3-4b97-b547-913d4275bf08" />
 
 - Use **command-line arguments** (`$1`, `$2`, `$#`, `$@`)
+<img width="411" height="144" alt="image" src="https://github.com/user-attachments/assets/29472978-1939-4bff-aeec-aa5bfc01fbb8" />
+
+
 - Install packages via script
 - Add basic **error handling**
+<img width="565" height="518" alt="image" src="https://github.com/user-attachments/assets/2631236d-d84e-43c1-9336-04bf7708557e" />
 
 ---
 
