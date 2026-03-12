@@ -26,6 +26,8 @@ You will:
    - Loops through a list of 5 fruits and prints each one
 2. Create `count.sh` that:
    - Prints numbers 1 to 10 using a for loop
+<img width="511" height="463" alt="image" src="https://github.com/user-attachments/assets/8e2ed085-4d8c-469e-ae25-b687dfc0a56a" />
+
 
 ---
 
@@ -34,19 +36,16 @@ You will:
    - Takes a number from the user
    - Counts down to 0 using a while loop
    - Prints "Done!" at the end
+<img width="355" height="261" alt="image" src="https://github.com/user-attachments/assets/162f24fe-93ef-4915-ae40-76be91139790" />
 
 ---
 
 ### Task 3: Command-Line Arguments
-1. Create `greet.sh` that:
+Create `greet.sh` that:
    - Accepts a name as `$1`
    - Prints `Hello, <name>!`
    - If no argument is passed, prints "Usage: ./greet.sh <name>"
-
-2. Create `args_demo.sh` that:
-   - Prints total number of arguments (`$#`)
-   - Prints all arguments (`$@`)
-   - Prints the script name (`$0`)
+    <img width="320" height="155" alt="image" src="https://github.com/user-attachments/assets/262d59c0-3832-48f3-894d-f3703b579029" />
 
 ---
 
@@ -57,8 +56,9 @@ You will:
    - Checks if each package is installed (use `dpkg -s` or `rpm -q`)
    - Installs it if missing, skips if already present
    - Prints status for each package
-
 > Run as root: `sudo -i` or `sudo su`
+<img width="472" height="365" alt="image" src="https://github.com/user-attachments/assets/0acc56e2-84d1-4cca-9a95-dbc750bc0342" />
+
 
 ---
 
