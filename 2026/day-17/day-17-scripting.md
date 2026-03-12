@@ -1,19 +1,16 @@
-# Day 17 – Shell Scripting: Loops, Arguments & Error Handling
+# Shell Scripting: Loops, Arguments & Error Handling
 
-## Task
+## Task Done
 Level up your scripting — use loops, handle arguments, and deal with errors.
 
 You will:
 - Write **for** and **while** loops
+  <img width="356" height="481" alt="image" src="https://github.com/user-attachments/assets/d43497f8-808e-4e5e-8ec4-7be0c0fbaa52" />
+<img width="444" height="205" alt="image" src="https://github.com/user-attachments/assets/2b4e7b1a-1dc3-4b97-b547-913d4275bf08" />
+
 - Use **command-line arguments** (`$1`, `$2`, `$#`, `$@`)
 - Install packages via script
 - Add basic **error handling**
-
----
-
-## Expected Output
-- A markdown file: `day-17-scripting.md`
-- All scripts you write during the tasks
 
 ---
 
