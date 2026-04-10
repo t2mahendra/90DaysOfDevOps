@@ -3,25 +3,20 @@
 ## Task Done
 You have been building and shipping containers with Docker. But what happens when you need to run hundreds of containers across multiple servers? You need an orchestrator. Today you start your Kubernetes journey — understand the architecture, set up a local cluster, and run your first `kubectl` commands.
 
-This is where things get real.
-
----
-
-## Expected Output
-- A running local Kubernetes cluster (kind or minikube)
-- A markdown file: `day-50-k8s-setup.md`
-- Screenshot of `kubectl get nodes` showing your cluster is ready
-
----
-
-## Challenge Tasks
-
 ### Task 1: Recall the Kubernetes Story
 Before touching a terminal, write down from memory:
 
 1. Why was Kubernetes created? What problem does it solve that Docker alone cannot?
+   Kubernetes was created (originally by Google) to manage containers at scale in production environments. Before Kubernetes, tools like Docker made it easy to create and run containers—but only on a single machine or in a very limited way across machines.
+   
 2. Who created Kubernetes and what was it inspired by?
+   Kubernetes was originally created by Borg engineers at Google and released as an open-source project in 2014.
+   
 3. What does the name "Kubernetes" mean?
+   K8s
+That’s because:
+There are 8 letters between K and s in “Kubernetes”
+(K + 8 letters + s)
 
 Do not look anything up yet. Write what you remember from the session, then verify against the official docs.
 
