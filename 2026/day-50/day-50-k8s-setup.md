@@ -7,12 +7,15 @@ You have been building and shipping containers with Docker. But what happens whe
 Before touching a terminal, write down from memory:
 
 1. Why was Kubernetes created? What problem does it solve that Docker alone cannot?
+
    Kubernetes was created (originally by Google) to manage containers at scale in production environments. Before Kubernetes, tools like Docker made it easy to create and run containers—but only on a single machine or in a very limited way across machines.
    
 2. Who created Kubernetes and what was it inspired by?
+
    Kubernetes was originally created by Borg engineers at Google and released as an open-source project in 2014.
    
 3. What does the name "Kubernetes" mean?
+
    K8s
 That’s because:
 There are 8 letters between K and s in “Kubernetes”
