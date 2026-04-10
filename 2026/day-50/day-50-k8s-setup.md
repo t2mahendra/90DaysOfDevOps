@@ -18,12 +18,13 @@ That’s because:
 There are 8 letters between K and s in “Kubernetes”
 (K + 8 letters + s)
 
-Do not look anything up yet. Write what you remember from the session, then verify against the official docs.
-
 ---
 
 ### Task 2: Draw the Kubernetes Architecture
 From memory, draw or describe the Kubernetes architecture. Your diagram should include:
+
+![Kubernetes Architecture](https://github.com/user-attachments/assets/9028bf7a-07ba-44fa-8da9-5697a97b36fa)
+
 
 **Control Plane (Master Node):**
 - API Server — the front door to the cluster, every command goes through it
