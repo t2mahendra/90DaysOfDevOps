@@ -40,12 +40,6 @@ From memory, draw or describe the Kubernetes architecture. Your diagram should i
 - kube-proxy — handles networking rules so pods can communicate
 - Container Runtime — the engine that actually runs containers (containerd, CRI-O)
 
-After drawing, verify your understanding:
-- What happens when you run `kubectl apply -f pod.yaml`? Trace the request through each component.
-- What happens if the API server goes down?
-- What happens if a worker node goes down?
-
----
 
 ### Task 3: Install kubectl
 `kubectl` is the CLI tool you will use to talk to your Kubernetes cluster.
@@ -68,6 +62,7 @@ Verify:
 ```bash
 kubectl version --client
 ```
+<img width="1042" height="392" alt="image" src="https://github.com/user-attachments/assets/acfb3f25-cb81-49f8-b8bd-0b15dc970282" />
 
 ---
 
@@ -84,13 +79,20 @@ brew install kind
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/latest/kind-linux-amd64
 chmod +x ./kind
 sudo mv ./kind /usr/local/bin/kind
+<img width="711" height="135" alt="image" src="https://github.com/user-attachments/assets/c0cb26e1-3a5a-4553-9c72-1cd4c4ef6f6b" />
+
 
 # Create a cluster
 kind create cluster --name devops-cluster
+<img width="491" height="231" alt="image" src="https://github.com/user-attachments/assets/757bb16e-b698-4b0c-bf4b-2c1124b90d5d" />
+
 
 # Verify
 kubectl cluster-info
 kubectl get nodes
+
+<img width="855" height="94" alt="image" src="https://github.com/user-attachments/assets/68ffa87f-0bfc-41c5-a8c5-729249cbc909" />
+
 ```
 
 **Option B: minikube**
